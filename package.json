@@ -1,0 +1,27 @@
+{
+  "name": "xsate-react-todo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "postinstall": "xstate typegen \"./src/**/*.ts?(x)\""
+  },
+  "dependencies": {
+    "@xstate/react": "^3.2.2",
+    "next": "13.5.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "xstate": "^4.38.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "13.5.5",
+    "typescript": "^5"
+  }
+}
